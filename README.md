@@ -6,6 +6,8 @@ This project is a simple calculator that performs basic arithmetic operations â€
 - Addition, subtraction, multiplication, and division
 - Simple command-line interface
 - Extendable for more features (e.g. square root, power)
+- Division operation added
+
 
 ## Folder Structure
 Calculator-Application/
