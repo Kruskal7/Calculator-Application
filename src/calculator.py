@@ -181,5 +181,14 @@ def divide(a, b):
         return "Error: Division by zero"
     return a / b
 
+<<<<<<< HEAD
 # minor update for division branch
 
+=======
+import math
+
+def sqrt(x):
+    if x < 0:
+        return "Error: Negative input"
+    return math.sqrt(x)
+>>>>>>> 62ed38d (feat: add square root function)
