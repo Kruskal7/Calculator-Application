@@ -171,12 +171,14 @@ class Calculator(tk.Tk):
         # We'll append "√(" and user can type number and close
         self._append("sqrt(")  # since eval knows sqrt from locals
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     app = Calculator()
     app.mainloop()
 
-    # New feature: division function added
-def divide(a, b):
-    if b == 0:
-        return "Error: Division by zero"
-    return a / b
+    # New feature: square root function added
+import math
+
+def sqrt(x):
+    if x < 0:
+        return "Error: negative input"
+    return math.sqrt(x)
