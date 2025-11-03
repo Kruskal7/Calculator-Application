@@ -171,7 +171,7 @@ class Calculator(tk.Tk):
         # We'll append "√(" and user can type number and close
         self._append("sqrt(")  # since eval knows sqrt from locals
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     app = Calculator()
     app.mainloop()
 
@@ -180,3 +180,6 @@ def divide(a, b):
     if b == 0:
         return "Error: Division by zero"
     return a / b
+
+# minor update for division branch
+
