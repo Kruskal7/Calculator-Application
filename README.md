@@ -7,7 +7,7 @@ This project is a simple calculator that performs basic arithmetic operations â€
 - Simple command-line interface
 - Extendable for more features (e.g. square root, power)
 - Division operation added
-
+- Square Root operation added
 
 ## Folder Structure
 Calculator-Application/
