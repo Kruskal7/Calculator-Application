@@ -174,3 +174,9 @@ class Calculator(tk.Tk):
 if _name_ == "_main_":
     app = Calculator()
     app.mainloop()
+
+    # New feature: division function added
+def divide(a, b):
+    if b == 0:
+        return "Error: Division by zero"
+    return a / b
